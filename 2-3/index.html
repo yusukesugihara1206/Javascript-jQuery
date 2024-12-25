@@ -7,11 +7,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>  
   <script>
   $(function(){
-   $("#button").on("click", function () {
-    $("#button").animate({
-     "marginleft": "100px",
-     "margintop":"100px"
-    });
+   $('#button').on('click', function (){
+     $(this).animate({'margin-left': '300px','margin-top': '150px'},1500)
    });
   });
   </script>
